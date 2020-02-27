@@ -1,0 +1,116 @@
+.main-nav-background{
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    height: 100vh;
+    background-color: #141C2A;
+}
+
+.logo-wrapper{
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    margin-top: 63px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 26px;
+    width: 20px;
+}
+
+.logo-text{
+    width: 96px;
+    height: 25px;
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 0px;
+
+}
+
+.add-button-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 162px;
+    height: 56px;
+    background: #242D3F;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    margin-left: 41px;
+    margin-top: 41px;
+}
+
+.add-icon{
+    margin-left: 19px;
+    height: 20px;
+    width: 20px;
+}
+
+.add-button-text{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-left: 19px;
+}
+
+.menu-wrapper{
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 41px;
+    display: flex;
+    flex-direction: column;
+    width: 162px;
+    height: 140px;
+}
+
+.expenses-menu-item{
+    width: 90px;
+    height: 20px;
+}
+
+.menu-icons1{
+    margin-left: 13px;
+    height: 20px;
+    width: 19px;
+}
+
+.menu-icons2{
+    margin-left: 13px;
+    height: 17px;
+    width: 20px;
+}
+
+.menu-icons3{
+    margin-left: 13px;
+    height: 20px;
+    width: 19px;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 200px;
+}
+
+.menu-item-text{
+    margin-left: 22px;
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #B9B9B9;
+
+}

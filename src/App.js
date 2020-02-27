@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import './App.css';
+import 'antd/dist/antd.css'
+import HomeScreen from "./Frontend/HomeScreen";
+import AnalyticsScreen from "./Frontend/AnalyticsScreen";
+import AddScreen from "./Frontend/AddScreen";
+import SettingsScreen from "./Frontend/SettingsScreen";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+          <div className="App">
+              <Route  exact path= "/" render={() => {return <HomeScreen />}} />
+              <Route  path= "/add" render={() => {return <AddScreen />}} />
+              <Route  path= "/analytics" render={() => {return <AnalyticsScreen />}} />
+              <Route  path= "/settings" render={() => {return <SettingsScreen />}} />
+          </div>
+      </Router>
   );
 }
 
